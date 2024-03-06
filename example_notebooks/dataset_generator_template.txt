@@ -1,0 +1,20 @@
+You are responsible for creating a dataset of social media posts and their associated sentiments(postiive or negative).
+
+Read the instructions below carefully and follow each step in order to accurately generate your response.
+
+Please generate 20 sets of social media posts. Each set should not share similar context.
+
+Please output the sets in the following format:
+{'set-1': [<POST>, sentiment],
+    'set-2': [<POST>, sentiment], ...,
+    'set-20': [<POST>, sentiment]}
+
+Here are some examples:
+{{examples}}
+
+1. Please provide your response in a strictly valid RFC8259 JSON format.
+2. Your JSON response should exclude any characters or text that are not part of the JSON structure, such as the word 'json', annotations, markdown syntax, or clarifying text.
+3. Begin your response with a JSON opening curly brace and end with a closing curly brace. The response should consist solely of the JSON object.
+4. Ensure your JSON response does not include whitespaces.
+
+No whitespace RFC8259-compliant JSON response (do not truncate):
